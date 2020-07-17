@@ -8,7 +8,7 @@ Feature: Test Environment
     And User click on Register
     And User fills Register form with below information
       |firstName|LastName|E-mail|Telephone|password|
-      |Marix|Camp|Jenkins@gmail.com|221540011|marixcamp|
+      |Marix|Camp|Jenkins1@gmail.com|221540011|marixcamp|
     And User select 'yes' for Subscribe
     And user click privacy and policy button
     And User click Continue button
