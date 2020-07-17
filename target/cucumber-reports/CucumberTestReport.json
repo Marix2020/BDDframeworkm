@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7778344800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Register Account for new User",
+        "description": "",
+        "id": "test-environment;register-account-for-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 843567600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1976309500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Test Environment page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Test_Environment_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388646000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_MyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1581876400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Register",
+            "match": {
+              "location": "RegisterStepDefinition.user_click_on_Register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1299251100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fills Register form with below information",
+            "match": {
+              "location": "RegisterStepDefinition.user_fills_Register_form_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "LastName",
+                  "E-mail",
+                  "Telephone",
+                  "password"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Marix",
+                  "Camp",
+                  "maricelocampo.tts1@gmail.com",
+                  "221540011",
+                  "marixcamp"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208999400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User select \u0027yes\u0027 for Subscribe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yes",
+                  "offset": 13
+                }
+              ],
+              "location": "RegisterStepDefinition.user_select_yes_for_Subscribe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719600000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click privacy and policy button",
+            "match": {
+              "location": "RegisterStepDefinition.user_click_privacy_and_policy_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 776307300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click Continue button",
+            "match": {
+              "location": "RegisterStepDefinition.user_click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5558896600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see message \u0027Your Account Has Been Created!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Account Has Been Created!",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterStepDefinition.user_should_see_message_Your_Account_Has_Been_Created(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@registerTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test Environment",
+    "description": "",
+    "id": "test-environment",
+    "keyword": "Feature",
+    "uri": "Features/TestEnv.feature"
+  }
+]
